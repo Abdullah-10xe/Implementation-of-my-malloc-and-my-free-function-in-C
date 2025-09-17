@@ -288,7 +288,7 @@ void* my_relloc(void* p, int size) {
     my_free(p);
     return new_ptr;
 }
-
+// basic test , check the address returend from my_malloc function 
 /*
 
 int main(){
